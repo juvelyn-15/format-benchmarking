@@ -1,0 +1,64 @@
+Partition experiment file/directory layout
+==================================================
+
+### Strategy: repartition_20
+format_benchmark\spark-storage-benchmark\data\generated\partition_repartition_20/
+  ._SUCCESS.crc  (8 bytes)
+  .part-00000-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (308 bytes)
+  .part-00001-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00002-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (308 bytes)
+  .part-00003-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (308 bytes)
+  .part-00004-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00005-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00006-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00007-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (308 bytes)
+  .part-00008-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (308 bytes)
+  .part-00009-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00010-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00011-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00012-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00013-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00014-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00015-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00016-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (300 bytes)
+  .part-00017-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  .part-00018-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (312 bytes)
+  .part-00019-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet.crc  (304 bytes)
+  _SUCCESS  (0 bytes)
+  part-00000-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (38,392 bytes)
+  part-00001-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,658 bytes)
+  part-00002-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,956 bytes)
+  part-00003-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,917 bytes)
+  part-00004-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,676 bytes)
+  part-00005-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,388 bytes)
+  part-00006-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,575 bytes)
+  part-00007-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,979 bytes)
+  part-00008-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,909 bytes)
+  part-00009-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,655 bytes)
+  part-00010-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,470 bytes)
+  part-00011-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,568 bytes)
+  part-00012-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,802 bytes)
+  part-00013-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,560 bytes)
+  part-00014-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,811 bytes)
+  part-00015-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,483 bytes)
+  part-00016-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,129 bytes)
+  part-00017-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,485 bytes)
+  part-00018-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (38,406 bytes)
+  part-00019-b8c33468-9f18-4bb5-8bbf-21beef58a9d3-c000.snappy.parquet  (37,593 bytes)
+  TOTAL: 42 file(s), 760,524 bytes
+
+### Strategy: coalesce_2
+format_benchmark\spark-storage-benchmark\data\generated\partition_coalesce_2/
+  ._SUCCESS.crc  (8 bytes)
+  .part-00000-b3be93f9-01be-43b3-9caf-59c949066518-c000.snappy.parquet.crc  (2,536 bytes)
+  _SUCCESS  (0 bytes)
+  part-00000-b3be93f9-01be-43b3-9caf-59c949066518-c000.snappy.parquet  (323,303 bytes)
+  TOTAL: 4 file(s), 325,847 bytes
+
+### Strategy: partitionBy_year_month
+format_benchmark\spark-storage-benchmark\data\generated\partition_partitionBy_year_month/
+  ._SUCCESS.crc  (8 bytes)
+  YEAR=2015\MONTH=1\.part-00000-0b6de880-02c3-4c17-a0ba-189d338486be.c000.snappy.parquet.crc  (2,532 bytes)
+  YEAR=2015\MONTH=1\part-00000-0b6de880-02c3-4c17-a0ba-189d338486be.c000.snappy.parquet  (322,764 bytes)
+  _SUCCESS  (0 bytes)
+  TOTAL: 4 file(s), 325,304 bytes
