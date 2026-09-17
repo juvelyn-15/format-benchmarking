@@ -384,16 +384,8 @@ def main():
 
     spark = (
         SparkSession.builder.appName("SparkStorageBenchmark")
+        .master("local[2]")
         .config("spark.sql.shuffle.partitions", "8")
-        # Avoids Hadoop's FileOutputCommitter v1 algorithm, which lists
-        # committed task directories at job-commit time via a native
-        # Windows permission check (NativeIO$Windows.access0). That call
-        # requires winutils.exe/hadoop.dll to be correctly installed and
-        # commonly fails on Windows even when HADOOP_HOME is set. Algorithm
-        # v2 commits per-task and skips that call entirely, so writes work
-        # on Windows without any native Hadoop binaries. It's also the
-        # generally faster/lower-overhead algorithm on any OS.
-        .config("spark.hadoop.mapreduce.fileoutputcommitter.algorithm.version", "2")
         .getOrCreate()
     )
 

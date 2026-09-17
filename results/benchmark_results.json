@@ -1,48 +1,48 @@
 {
   "metadata": {
     "dataset": "usdot/flight-delays (Kaggle)",
-    "input_path": "format_benchmark\\spark-storage-benchmark\\data\\raw\\flights_1mb.csv",
-    "input_size_bytes": 1048634,
-    "input_size_mb": 1.0486,
+    "input_path": "format_benchmark\\spark-storage-benchmark\\data\\raw\\flights.csv",
+    "input_size_bytes": 592406591,
+    "input_size_mb": 592.4066,
     "sample_fraction": 1.0,
-    "row_count": 10492,
+    "row_count": 5819079,
     "spark_version": "3.5.9",
     "python_version": "3.11.7",
-    "execution_mode": "local[*]",
-    "benchmark_date_utc": "2026-09-16T17:10:34.314345+00:00"
+    "execution_mode": "local[2]",
+    "benchmark_date_utc": "2026-09-17T05:31:13.315023+00:00"
   },
   "format_results": [
     {
       "format": "csv",
-      "write_time_sec": 0.3693,
-      "output_size_bytes": 1074354,
-      "output_size_mb": 1.0744,
-      "num_files": 1,
-      "read_query_time_sec": 1.3573
+      "write_time_sec": 9.3927,
+      "output_size_bytes": 605797497,
+      "output_size_mb": 605.7975,
+      "num_files": 5,
+      "read_query_time_sec": 14.2595
     },
     {
       "format": "json",
-      "write_time_sec": 0.2693,
-      "output_size_bytes": 4880976,
-      "output_size_mb": 4.881,
-      "num_files": 1,
-      "read_query_time_sec": 0.8306
+      "write_time_sec": 17.0457,
+      "output_size_bytes": 2736443483,
+      "output_size_mb": 2736.4435,
+      "num_files": 5,
+      "read_query_time_sec": 29.0112
     },
     {
       "format": "parquet",
-      "write_time_sec": 1.5583,
-      "output_size_bytes": 325847,
-      "output_size_mb": 0.3258,
-      "num_files": 1,
-      "read_query_time_sec": 0.603
+      "write_time_sec": 8.7478,
+      "output_size_bytes": 142627174,
+      "output_size_mb": 142.6272,
+      "num_files": 5,
+      "read_query_time_sec": 0.8182
     },
     {
       "format": "orc",
-      "write_time_sec": 0.6025,
-      "output_size_bytes": 350651,
-      "output_size_mb": 0.3507,
-      "num_files": 1,
-      "read_query_time_sec": 0.367
+      "write_time_sec": 10.1279,
+      "output_size_bytes": 177687315,
+      "output_size_mb": 177.6873,
+      "num_files": 5,
+      "read_query_time_sec": 1.7012
     }
   ]
 }
